@@ -19,17 +19,17 @@ Text Domain: jayna
 
 @font-face {
   font-family: 'Webly Sleek';
-  src: url("weblysleekuil.ttf");
+  src: url("fonts/weblysleekuil.ttf");
 }
 
 @font-face {
   font-family: 'Webly Sleek';
-  src: url("weblysleekuisb.ttf");
+  src: url("fonts/weblysleekuisb.ttf");
   font-weight: bold;
 }
 
 body {
-  background: url("background_lowres.png") center top;
+  background: url("images/background_lowres.png") center top;
   background-repeat: no-repeat;
   background-color: #161616;
   font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -80,7 +80,7 @@ a {
 #yla-kuva {
   width: 908px;
   height: 380px;
-  background: url("ylakuva_lowres.png") no-repeat center top;
+  background: url("images/ylakuva_lowres.png") no-repeat center top;
   margin: 20px auto;
   padding-bottom: 30px;
 }
