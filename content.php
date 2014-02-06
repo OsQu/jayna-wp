@@ -8,7 +8,7 @@
         <div id="horizontal-menu" class="menu">
                 <ul>
             <li class="selected"><a href="http://www.jayna.fi/kisa/">
-                     <img src="./jayna_files/home.png">
+                     <img src="<?php image_src("home.png");?>">
 </a></li>
             <li><a href="http://www.jayna.fi/kisa/index.php?page=jayna20-julistus">
                      Kilpailu
@@ -39,7 +39,6 @@
                             <div class="blog-entry">
             <span class="date">01.05.2013</span>
             <h2>Otaniemen 26. Jäynäkilpailun voittajat</h2>
-                        <img src="./jayna_files/2013-04-30 14.31.38.jpg" width="550">
 
 <p>Otaniemen 26. Jäynäkilpailun on voitti joukkue NipsuMymmeliNiiskuneitijaTiuhtijaViuhti Mamelukkikala-jäynällään, onnea voittajille! Palkinnoksi joukkue sai limusiinikyydityksen Ullanlinnanmäelle wappupäivänä, maittavan wappukorin evääksi piknikille sekä tietysti kiinnityksen Jäynäkilpailun kiertopalkintopokaaliin.</p>            
             <div class="blog-entry-separator"></div>
@@ -66,19 +65,19 @@
                 <div id="sponsors" class="box"> 
                     <h3>YHTEISTYÖSSÄ</h3>
                     <a href="http://www.afconsult.com/fi/">
-                        <img src="./jayna_files/af_logo.png">
+                        <img src="<?php image_src("af_logo.png"); ?>">
                     </a>
 
                     <a href="http://www.tek.fi/">
-                        <img src="./jayna_files/tek_2012.png">
+                        <img src="<?php image_src("tek_2012.png"); ?>">
                     </a>
 
                     <a href="https://alumninet.aalto.fi/portal/Registration/Join.aspx">
-                        <img src="./jayna_files/alumninet.png">
+                        <img src="<?php image_src("alumninet.png"); ?>">
                     </a>
 
                     <a href="http://www.innohair.fi/">
-                        <img src="./jayna_files/innohair.jpg">
+                        <img src="<?php image_src("innohair.jpg"); ?>">
                     </a>
                 </div>
                 <div id="yhteystiedot" class="box"> 
