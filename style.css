@@ -1,0 +1,263 @@
+/*
+Theme Name: Jayna
+Author: Veikko Sompa
+Author URI: http://www.jayna.fi
+Description: Theme to be used with Jayna's website
+Version: 0.1
+License: MIT
+License URI: http://opensource.org/licenses/MIT
+Tags: jayna
+Text Domain: jayna
+*/
+
+@font-face {
+  font-family: 'Carrois Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Carrois Gothic'), local('CarroisGothic-Regular'), url(http://themes.googleusercontent.com/static/fonts/carroisgothic/v2/GCgb7bssGpwp7V5ynxmWy1munQUHE-w7pdt7tji1XYk.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Webly Sleek';
+  src: url("weblysleekuil.ttf");
+}
+
+@font-face {
+  font-family: 'Webly Sleek';
+  src: url("weblysleekuisb.ttf");
+  font-weight: bold;
+}
+
+body {
+  background: url("background_lowres.png") center top;
+  background-repeat: no-repeat;
+  background-color: #161616;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #363636;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main-content a:link {
+  color: #D9D9D9; text-decoration: none; 
+}
+
+#main-content a:active {
+  color: #E8E8E8; text-decoration: none; 
+}
+
+#main-content a:visited {
+  color: #D9D9D9; text-decoration: none; 
+}
+
+#main-content a:hover {
+  color: #FFFFFF; text-decoration: underline; 
+}
+
+#content {
+  width: 938px;
+  margin: 0 auto;
+}
+
+/* Draw that fancy line below element :) */
+.bottom-line {
+  border-bottom: 1px solid #D7D7D7;
+}
+
+/* Header with logo and contact link */
+#header {
+  padding: 15px 0;
+}
+
+#yhteystiedot {
+  float: right;
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+
+#yla-kuva {
+  width: 908px;
+  height: 380px;
+  background: url("ylakuva_lowres.png") no-repeat center top;
+  margin: 20px auto;
+  padding-bottom: 30px;
+}
+
+/* Horizontal menu stuff */
+.menu {
+  font-family: 'Carrois Gothic', Verdana, Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+
+}
+
+.menu ul {
+  text-align: center;
+  padding-left: 0;
+}
+.menu li {
+  display: inline;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+#horizontal-menu li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+/*
+#horizontal-menu li.selected:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+*/
+
+#horizontal-menu a {
+  color: #FFFFFF;
+}
+#horizontal-menu ul {
+  margin-bottom: 20px;
+}
+#horizontal-menu li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#horizontal-menu li.selected {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+#submenu {
+  font-size: 0.9em;
+}
+#submenu a {
+  color: #949494;
+}
+#submenu a.active {
+  color: #3097A9;
+}
+#submenu li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Main content */
+#main-content {
+  background: rgba(0, 0, 0, .35);
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+#content-container {
+  margin: 15px;
+  width: 64%;
+  float: left;
+  /*background: rgba(0, 0, 0, .65);*/
+  /*border: 2px solid #64bfd3;*/
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+/* Blog area */
+.blog-entry {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+
+  font-family: 'Webly Sleek';
+  font-size: large;
+}
+
+.blog-entry h2 {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-family: 'Carrois Gothic', Verdana, Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+.blog-entry p {
+  line-height: 150%;
+}
+.blog-entry .blog-entry-separator {
+  height: 0px;
+  background-color: #000000;
+  /**margin: auto;*/
+  margin-bottom: 40px;
+  /*
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFE5E5E5', endColorstr='#FFE5E5E5');
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(229, 229, 229, 0)), color-stop(20%, #e5e5e5), color-stop(80%, #e5e5e5), color-stop(100%, rgba(229, 229, 229, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(229, 229, 229, 0) 0%, #e5e5e5 20%, #e5e5e5 80%, rgba(229, 229, 229, 0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(229, 229, 229, 0) 0%, #e5e5e5 20%, #e5e5e5 80%, rgba(229, 229, 229, 0) 100%);
+  background-image: -o-linear-gradient(left, rgba(229, 229, 229, 0) 0%, #e5e5e5 20%, #e5e5e5 80%, rgba(229, 229, 229, 0) 100%);
+  background-image: linear-gradient(left, rgba(229, 229, 229, 0) 0%, #e5e5e5 20%, #e5e5e5 80%, rgba(229, 229, 229, 0) 100%);
+*/
+}
+.blog-entry .date {
+  color: #FFFFFF;
+}
+
+#right-column {
+  float: right;
+  width: 28%;
+  margin-right: 15px;
+  margin-top: 85px;
+}
+#right-column div.box {
+  /*background: #000000;*/
+  /*border: 2px solid #64bfd3;*/
+}
+#right-column h3 {
+  color: #FFFFFF;
+  font-family: 'Carrois Gothic', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 0px;
+  /*border-bottom: 1px solid #D3D3D3;*/
+}
+
+#jayna-actions {
+  margin-top: 30px;
+  margin-right: 10px;
+  padding: 0 20px;
+}
+#jayna-actions #lainaa {
+  background: url("uploads/images/jayna20/kamera.png") no-repeat center top;
+  float: right;
+}
+#jayna-actions #ilmoita {
+  background: url("uploads/images/jayna20/pokaali.png") no-repeat center top;
+  float: left;
+}
+#jayna-actions a {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  padding-top: 48px;
+  color: #565B5C;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+#fb-timeline {
+  height: 590px;
+  margin-bottom: 20px;
+}
+
+#sponsors img {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+}
+
