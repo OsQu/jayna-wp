@@ -1,14 +1,16 @@
 <?php
-    get_header();
+get_header();
 ?>
+
 <?php
-    if (have_posts()) {
-        while (have_posts()) {
-            the_post();
-            echo the_content();
-        }
+if (have_posts()) {
+    while (have_posts()) {
+        the_post();
+        echo the_content();
     }
+}
 ?>
+
 <?php
-    get_footer();
+get_footer();
 ?>

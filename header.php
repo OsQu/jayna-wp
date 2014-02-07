@@ -10,6 +10,6 @@
 <body>
     <div id="content">
         <div id="yla-kuva"></div>
-            <?php wp_nav_menu(array("theme_location" => "top-menu", "menu_id" => "horizontal-menu")); ?>
+<?php wp_nav_menu(array("theme_location" => "top-menu", "menu_id" => "horizontal-menu")); ?>
         <div id="main-content">
             <div id="content-container">

@@ -8,7 +8,8 @@ function register_menus() {
     register_nav_menus(
         array(
             "top-menu" => __("Top Menu"),
-            "sub-menu" => __("Sub Menu")
+            "kilpailu" => __("Kilpailu"),
+            "tietoa" => __("Tietoa")
         )
     );
 }
@@ -35,5 +36,5 @@ function add_home_icon($items) {
     return $home . $items;
 }
 
-add_filter("wp_nav_menu_items", "add_home_icon");
+add_filter("wp_nav_menu_top_items", "add_home_icon");
 ?>
