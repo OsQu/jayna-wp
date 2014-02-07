@@ -10,35 +10,6 @@
 <body>
     <div id="content">
         <div id="yla-kuva"></div>
-        
-        <div id="horizontal-menu" class="menu">
-                <ul>
-            <li class="selected"><a href="http://www.jayna.fi/kisa/">
-                     <img src="<?php image_src("home.png");?>">
-            </a></li>
-            <li><a href="http://www.jayna.fi/kisa/index.php?page=jayna20-julistus">
-                     Kilpailu
-</a></li>
-            <li><a href="http://www.jayna.fi/kisa/index.php?page=jayna20-arkisto">
-                     Jäynäarkisto
-</a></li>
-            <li><a href="http://www.jayna.fi/kisa/index.php?page=jayna20-yrityksille">
-                     Yrityksille
-</a></li>
-           <li><a href="http://www.jayna.fi/kisa/index.php?page=jayna20-yrityksille">
-                     Ilmoita jäynä
-</a></li>
-           <li><a href="http://www.jayna.fi/kisa/index.php?page=jayna20-yrityksille">
-                     Vuokraa välineitä
-</a></li>
-            <li><a href="http://www.jayna.fi/kisa/index.php?page=jayna20-jaynatietoa">
-                     Tietoa Jäynästä
-        
-</a></li>
-        </ul>
-
-    </div>
-
-    <div id="main-content">
-        <div id="content-container">
-                
+            <?php wp_nav_menu(array("theme_location" => "top-menu", "menu_id" => "horizontal-menu")); ?>
+        <div id="main-content">
+            <div id="content-container">

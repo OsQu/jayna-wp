@@ -85,7 +85,7 @@ a {
   padding-bottom: 30px;
 }
 
-/* Horizontal menu stuff */
+/* Menu stuff */
 .menu {
   font-family: 'Carrois Gothic', Verdana, Arial, Helvetica, sans-serif;
   font-size: large;
@@ -111,13 +111,6 @@ a {
   border-radius: 5px;
 }
 
-/*
-#horizontal-menu li.selected:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 5px;
-}
-*/
-
 #horizontal-menu a {
   color: #FFFFFF;
 }
@@ -129,7 +122,7 @@ a {
   padding-bottom: 10px;
 }
 
-#horizontal-menu li.selected {
+#horizontal-menu li.current_page_item {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
 }
