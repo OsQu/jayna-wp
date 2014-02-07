@@ -133,8 +133,8 @@ a {
 #submenu a {
   color: #949494;
 }
-#submenu a.active {
-  color: #3097A9;
+#submenu .current-menu-item a {
+  color: #ffffff;
 }
 #submenu li {
   padding-left: 20px;
