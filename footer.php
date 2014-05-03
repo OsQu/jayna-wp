@@ -1,11 +1,7 @@
 </div>
 <div id="right-column">
-    <div id="sponsors" class="box"> 
+    <div id="sponsors" class="box">
         <h3>YHTEISTYÖSSÄ</h3>
-        <a href="http://www.afconsult.com/fi/">
-            <img src="<?php image_src("af_logo.png"); ?>">
-        </a>
-
         <a href="http://www.tek.fi/">
             <img src="<?php image_src("tek_2012.png"); ?>">
         </a>
@@ -14,11 +10,19 @@
             <img src="<?php image_src("alumninet.png"); ?>">
         </a>
 
-        <a href="http://www.innohair.fi/">
-            <img src="<?php image_src("innohair.jpg"); ?>">
+        <a href="http://www.honda.fi/">
+            <img src="<?php image_src("honda.png"); ?>">
+        </a>
+
+        <a href="http://www.yit.fi/">
+            <img src="<?php image_src("yit.png"); ?>">
+        </a>
+
+        <a href="http://www.antonanton.fi/?locale=fi">
+            <img src="<?php image_src("antonanton.png"); ?>">
         </a>
     </div>
-    <div id="yhteystiedot" class="box"> 
+    <div id="yhteystiedot" class="box">
         <h3>YHTEYSTIEDOT</h3>
         <p>Yleisissä Jäynäkilpailuun liittyvissä kysymyksissä tavoitat meidät parhaiten <a href="http://www.jayna.fi/kisa/index.php?page=jayna20-yhteydenotto" title="Kysy jäynästä">Kysy jäynästä -lomakkeella</a>.</p>
         <p>Alta löydät tietyn osa-alueen vastaavien yhteystiedot.</p>
