@@ -2,23 +2,23 @@
 <div id="right-column">
     <div id="sponsors" class="box">
         <h3>YHTEISTYÖSSÄ</h3>
-        <a href="http://www.tek.fi/">
+        <a href="http://www.tek.fi/" target="_blank">
             <img src="<?php image_src("tek_2012.png"); ?>">
         </a>
 
-        <a href="https://alumninet.aalto.fi/portal/Registration/Join.aspx">
+        <a href="https://alumninet.aalto.fi/portal/Registration/Join.aspx" target="_blank">
             <img src="<?php image_src("alumninet.png"); ?>">
         </a>
 
-        <a href="http://www.honda.fi/">
+        <a href="http://www.honda.fi/" target="_blank">
             <img src="<?php image_src("honda.png"); ?>">
         </a>
 
-        <a href="http://www.yit.fi/">
+        <a href="http://www.yit.fi/" target="_blank">
             <img src="<?php image_src("yit.png"); ?>">
         </a>
 
-        <a href="http://www.antonanton.fi/?locale=fi">
+        <a href="http://www.antonanton.fi/?locale=fi" target="_blank">
             <img src="<?php image_src("antonanton.png"); ?>">
         </a>
     </div>
